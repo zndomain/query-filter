@@ -2,7 +2,7 @@
 
 namespace ZnDomain\QueryFilter\Exceptions;
 
-use ZnCore\Validation\Exceptions\UnprocessibleEntityException;
+use ZnDomain\Validator\Exceptions\UnprocessibleEntityException;
 
 class BadFilterValidateException extends UnprocessibleEntityException
 {

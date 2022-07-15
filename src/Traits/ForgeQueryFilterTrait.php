@@ -5,7 +5,7 @@ namespace ZnDomain\QueryFilter\Traits;
 use Psr\EventDispatcher\EventDispatcherInterface;
 use ZnDomain\Domain\Enums\EventEnum;
 use ZnDomain\Domain\Events\QueryEvent;
-use ZnCore\Query\Entities\Query;
+use ZnDomain\Query\Entities\Query;
 use ZnDomain\QueryFilter\Helpers\FilterModelHelper;
 
 trait ForgeQueryFilterTrait

@@ -2,7 +2,7 @@
 
 namespace ZnDomain\QueryFilter\Interfaces;
 
-use ZnCore\Query\Entities\Query;
+use ZnDomain\Query\Entities\Query;
 
 /**
  * Формирование параметров запроса из фильтра

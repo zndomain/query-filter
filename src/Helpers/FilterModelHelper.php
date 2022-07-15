@@ -3,14 +3,14 @@
 namespace ZnDomain\QueryFilter\Helpers;
 
 use ZnCore\Arr\Helpers\ArrayHelper;
-use ZnCore\Entity\Helpers\EntityHelper;
-use ZnCore\Query\Entities\Query;
-use ZnCore\Query\Entities\Where;
+use ZnDomain\Entity\Helpers\EntityHelper;
+use ZnDomain\Query\Entities\Query;
+use ZnDomain\Query\Entities\Where;
 use ZnDomain\QueryFilter\Exceptions\BadFilterValidateException;
 use ZnDomain\QueryFilter\Interfaces\DefaultSortInterface;
 use ZnDomain\QueryFilter\Interfaces\IgnoreAttributesInterface;
-use ZnCore\Validation\Exceptions\UnprocessibleEntityException;
-use ZnCore\Validation\Helpers\ValidationHelper;
+use ZnDomain\Validator\Exceptions\UnprocessibleEntityException;
+use ZnDomain\Validator\Helpers\ValidationHelper;
 
 class FilterModelHelper
 {
